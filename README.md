@@ -1,3 +1,3 @@
 # somaArray
 
-Realiza a soma de arrays a partir de um determinado indice
+Realiza a soma de elementos em uma array a partir de um determinado indice
