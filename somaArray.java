@@ -2,12 +2,12 @@ import java.util.Arrays;
 
 public class somaArray {
 
-    public static int somaArray(int[] array, int index) {
-        if (index >= array.length) {
+    public static int somaArray(int[] array, int indice) {
+        if (indice >= array.length) {
             return 0;
         }
 
-        return array[index] + somaArray(array, index+1);
+        return array[indice] + somaArray(array, indice+1);
     }
 
     public static void main(String[] args) {
